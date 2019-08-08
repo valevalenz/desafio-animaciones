@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      header{
+        background-color: aqua;
+        padding: 30px 0 200px 50px;
+      }
+
+      .sun{
+        height: 120px;
+        animation-name:entrada1;
+ animation-duration: 1s;
+      }
+
+
+      @keyframes entrada1 {
+  from {
+   opacity:0;
+  }
+  to {
+    opacity:1
+  }
+}
+
+      h1{
+        color: white;
+      }
+
+      p{
+        color: white;
+      }
+
+      .animacion_texto{
+        animation-name:entrada2;
+        animation-duration: 2s;
+      }
+
+        @keyframes entrada2 {
+        from {
+         opacity:0;
+        }
+        to {
+          opacity:1
+        }
+      }
+
+      main{
+        background-color: beige;
+      }
+
+      .palm{
+        height: 150px;
+        padding-left: 50%;
+        animation-name:entrada3;
+        animation-duration: 3s;
+      }
+
+
+      .umbrella{
+        height: 150px;
+        animation-name: entrada4;
+        animation-duration:1s;
+      }
+
+      @keyframes entrada4 {
+        from {
+        position:absolute;
+        left:-200px;
+        }
+        to {
+        position:relative;
+        left:0;}
+      }
+
+      .beach-ball{
+        height: 120px;
+        animation-name: entrada5;
+        animation-duration:1s;
+      }
+
+      @keyframes entrada5 {
+        from {
+        position:absolute;
+        right:-200px;
+        }
+        to {
+        position:relative;
+        right:0;}
+      }
+
+      .people{
+        padding-left: 70%;
+      }
+
+
+    </style>
+  </head>
+  <body>
+<div class="contenedor">
+
+    <header>
+
+      <img class="sun" src="entregables/ejercicio-3_sun.svg" alt="">
+<div class="animacion_texto">
+    <h1>Vive el Verano</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+</div>
+
+    </header>
+
+    <main>
+
+      <div>
+        <img class="palm" src="entregables/ejercicio-3_palm-tree.svg" alt="">
+      </div>
+
+      <div>
+        <img class="umbrella" src="entregables/ejercicio-3_sun-umbrella.svg" alt="">
+      </div>
+
+      <div>
+        <img class="people" src="entregables/ejercicio-3_people.svg" alt="">
+        <img class="beach-ball" src="entregables/ejercicio-3_beach-ball.svg" alt="">
+      </div>
+
+    </main>
+
+</div>
+  </body>
+</html>
